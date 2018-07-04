@@ -1,9 +1,86 @@
 .home {
-  
+  background-image: url("../../images/logo.svg");
+  background-size: contain;
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .moonLink {
-
+  position: absolute;
+  left: -20vw;
+  top: -9vh;
+  width: 77vw;
+  height: 150vh;
+  -ms-transform: rotate(-24.3deg);
+  -webkit-transform: rotate(-24.3deg);
+  transform: rotate(-24.3deg);
+}
+.moonLink:before {
+  font-size: 6.4em;
+  font-weight: 100;
+  color: rgba(255,255,255,0);
+  position: absolute;
+  -ms-transform: rotate(24.3deg);
+  -webkit-transform: rotate(24.3deg);
+  transform: rotate(24.3deg);
+  bottom: 45vh;
+  left: 51vw;
+  content: "COPY";
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+.moonLink:hover:before {
+  color: rgba(255,255,255,1);
+}
+.moonLink:hover {
+  background-color: rgba(0,0,0,.2);
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
 }
 .viewLink {
-
+  position: absolute;
+  right: -10vw;
+  width: 52vw;
+  height: 148vh;
+  top: -15vw;
+  -ms-transform: rotate(-24.3deg);
+  -webkit-transform: rotate(-24.3deg);
+  transform: rotate(-24.3deg);
+}
+.viewLink:hover {
+  background-color: rgba(0,0,0,.2);
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+.viewLink:before {
+  font-size: 6.4em;
+  font-weight: 100;
+  color: rgba(255,255,255,0);
+  position: absolute;
+  left: -12vw;
+  width: 52vw;
+  height: 148vh;
+  top: 28vw;
+  -ms-transform: rotate(24.3deg);
+  -webkit-transform: rotate(24.3deg);
+  transform: rotate(24.3deg);
+  content: "WEB";
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+.viewLink:hover:before {
+  color: rgba(255,255,255,1);
 }
