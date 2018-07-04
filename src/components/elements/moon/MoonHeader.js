@@ -2,7 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const MoonHeader = () => (
-  <div className="logo">
+  <div className="moonHeader">
+    <Link to="/"><div className="logo" /></Link>
   </div>
 );
 
