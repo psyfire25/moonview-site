@@ -1,0 +1,15 @@
+.formWrap {
+  padding: 10vw;
+}
+.formWrap p {
+  color: white;
+  font-size: 3vw;
+  text-align: right;
+  margin-top: -10vh;
+}
+.ui.primary.button {
+  background-color: #7F9FAA !important;
+}
+.ui.primary.button:hover {
+  background-color: rgb(95, 126, 137)!important;
+}

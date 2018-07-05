@@ -1,5 +1,7 @@
 import React from 'react';
+import MoonHeader from '../elements/moon/MoonHeader';
 import Login from '../elements/forms/login';
+import './loginPage.css'
 
 class LoginPage extends React.Component {
 
@@ -9,9 +11,10 @@ class LoginPage extends React.Component {
 
   render() {
     return (
-      <div>
-      <p>Login Page</p>
-      <Login submit={this.submit}/>
+      <div className="formWrap">
+        <MoonHeader />
+        <p>Login Page</p>
+        <Login submit={this.submit}/>
       </div>
     );
   }
