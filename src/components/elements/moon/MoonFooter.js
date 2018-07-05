@@ -4,13 +4,12 @@ import { Link } from 'react-router-dom';
 
 const MoonFooter = () => (
   <div>
-    <Menu right />
-    <main>
-      <Link to="/">HOME</Link>
+    <Menu right>
       <Link to="/About">ABOUT</Link>
       <Link to="/Portfolio">PORTFOLIO</Link>
       <Link to="/Contact">CONTACT</Link>
-    </main>
+      <Link to="/Login" className="editBTN"></Link>
+    </Menu>
   </div>
 );
 

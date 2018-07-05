@@ -1,15 +1,18 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
+import firebase from './firebase/firebase';
 import Home from './components/pages/home'
-import Moon from './components/pages/moon';
-import View from './components/pages/view';
+import Copy from './components/pages/copy';
+import Web from './components/pages/web';
+import Login from './components/pages/login';
 import './App.css';
 
 const App = () => (
       <div className="app">
         <Route path="/" exact component={Home} />
-        <Route path="/Moon" exact component={Moon} />
-        <Route path="/View" exact component={View} />
+        <Route path="/Copy" exact component={Copy} />
+        <Route path="/Web" exact component={Web} />
+        <Route path="/Login" exact component={Login} />
       </div>
 );
 

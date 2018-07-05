@@ -1,0 +1,69 @@
+.viewHeader {
+  position: fixed;
+  height: 20vw;
+  top: 5vh;
+  right: 5vw;
+  z-index: 110;
+}
+.viewContent {
+  position: absolute;
+  top: 0vh;
+  left: 0vw;
+  height: 100%;
+  width: 100vw;
+  z-index: 100;
+  color: white;
+  padding: 10vw;
+  padding-top: 20vh;
+  background-color: black;
+}
+.logo {
+  width: 20vw;
+  height: 28vh;
+  background-image: url('../../images/logo.svg');
+  background-size: cover;
+}
+.viewMenu .bm-burger-button button{
+position: fixed !important;
+top: 87vh !important;
+left: 2vw !important;
+width: 5vw !important;
+height: 5vw !important;
+margin: 0px !important;
+padding: 0px !important;
+border: none !important;
+opacity: 1 !important;
+font-size: 8px !important;
+cursor: pointer !important;
+background-image: url("../../images/bBTN.svg");
+background-size: contain;
+background-color: black;
+color: white;
+background-repeat: no-repeat;
+z-index: 1000;
+}
+.viewMenu .bm-item {
+  color: white;
+  font-size: 2.4em;
+  line-height: 2.4em;
+  text-align: left;
+  padding-left: 1vw;
+}
+.viewMenu .bm-item:hover {
+  color: #C6C6C6;
+  background-color: rgba(198,198,198,.4);
+}
+.viewMenu .bm-menu {
+  background-color: rgba(198,198,198,.6);
+  border-radius: 0% 100% 0% 0%;
+  padding: 30vh 1vw;
+}
+p {
+  font-kerning: normal;
+  letter-spacing: .34em;
+  text-align: justify;
+  width: 40vw;
+  height: auto;
+  padding: 2vw;
+  opacity: 1;
+}

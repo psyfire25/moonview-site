@@ -17,8 +17,12 @@ Main Colours:
 rgba (127,159,170,1) , hex: #7F9FAA, blue colour.
 rgba (198,198,198,1) , hex: #C6C6C6, grey colour.
 
+Menu colours:
+rgba(95, 126, 137, 1) blue hover colour
+
+
 Fonts:
 
 Provided by semantic-ui
 
-Helvetica neun 
+Helvetica neun
