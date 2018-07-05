@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "prop-types": "^15.6.2",
     "re-base": "^3.2.3",
     "react": "^16.4.1",
     "react-addons-css-transition-group": "^15.6.2",
