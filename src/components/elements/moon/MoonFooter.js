@@ -8,7 +8,7 @@ const MoonFooter = () => (
       <Link to="/About">ABOUT</Link>
       <Link to="/Portfolio">PORTFOLIO</Link>
       <Link to="/Contact">CONTACT</Link>
-      <Link to="/Login" className="editBTN"></Link>
+      <Link to="/LoginPage" className="editBTN"></Link>
     </Menu>
   </div>
 );

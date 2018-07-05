@@ -1,7 +1,8 @@
 import React from 'react';
 import { Form, Button } from 'semantic-ui-react';
 import Validator from 'validator';
-import InlineError from '../elements/messages/inlineError.js';
+import InlineError from '../messages/inlineError.js';
+import PropTypes from 'prop-types';
 
 class Login extends React.Component {
   state = {
@@ -64,6 +65,10 @@ class Login extends React.Component {
       </div>
     );
   }
+};
+
+Login.propTypes = {
+  submit: PropTypes.func.isRequired
 };
 
 export default Login;
