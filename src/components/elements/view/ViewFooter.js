@@ -5,9 +5,8 @@ import { Link } from 'react-router-dom';
 const ViewFooter = () => (
   <div>
     <Menu className="viewMenu">
-      <Link to="/About">ABOUT</Link>
-      <Link to="/Portfolio">PORTFOLIO</Link>
-      <Link to="/Contact">CONTACT</Link>
+      <Link to="/PortfolioWeb">PORTFOLIO</Link>
+      <Link to="/ContactWeb">CONTACT</Link>
     </Menu>
   </div>
 );

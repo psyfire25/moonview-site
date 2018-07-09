@@ -47,6 +47,7 @@ z-index: 1000;
   font-size: 2.4em;
   line-height: 2.4em;
   text-align: right;
+  margin-right: -1vw;
   padding-right: 1vw;
 }
 .bm-item:hover {
