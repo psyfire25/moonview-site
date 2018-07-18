@@ -67,10 +67,10 @@
   font-weight: 100;
   color: rgba(255,255,255,0);
   position: absolute;
-  left: -12vw;
+  left: -10vw;
   width: 52vw;
-  height: 148vh;
-  top: 28vw;
+  height: 132vh;
+  top: 27vw;
   -ms-transform: rotate(24.3deg);
   -webkit-transform: rotate(24.3deg);
   transform: rotate(24.3deg);
